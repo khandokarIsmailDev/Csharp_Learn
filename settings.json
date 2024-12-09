@@ -1,0 +1,5 @@
+{
+    "omnisharp.path": "latest",
+    "omnisharp.useModernNet": true,
+    "omnisharp.sdkPath": "/usr/local/share/dotnet"
+}

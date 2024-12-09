@@ -73,15 +73,43 @@
 // } 
 
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string nameAdd = name.Insert(0,"Mr.");
+//         string nameAdd2 = name.Insert(name.Length,".com");
+//         string nameAdd3 = name.Insert(2,"55");
+
+//         Console.WriteLine(nameAdd);
+//         Console.WriteLine(nameAdd2);
+//         Console.WriteLine(nameAdd3);
+//     }
+// }
+
 class MainProgram{
     public static void Main(string[] args){
-        string name = "ismail";
-        string nameAdd = name.Insert(0,"Mr.");
-        string nameAdd2 = name.Insert(name.Length,".com");
-        string nameAdd3 = name.Insert(2,"55");
-        
-        Console.WriteLine(nameAdd);
-        Console.WriteLine(nameAdd2);
-        Console.WriteLine(nameAdd3);
+        string str = "there is a cat";
+        string str2 = "     there is    ";
+        int strIndex = str.IndexOf("s");
+        int lastIndex = str.LastIndexOf("a");
+        bool isHere = str.EndsWith("at");
+        bool startWi = str.StartsWith("the");
+        bool equality =  str.Equals("there is a ca"); //icca kore vul disi t missing
+        bool contentWord = str.Contains("is a");
+        string removeSpace = str2.Trim();
+        string firstRemoveSpace = str2.TrimStart();
+        string lastRemoveSpace = str2.TrimEnd();
+        string copyStr = str.Substring(3,5); //str the 3-index por 4 ta index copy korbe
+
+        Console.WriteLine(strIndex);
+        Console.WriteLine(lastIndex);
+        Console.WriteLine(isHere);
+        Console.WriteLine(startWi);
+        Console.WriteLine(equality);
+        Console.WriteLine(contentWord);
+        Console.WriteLine(removeSpace);
+        Console.WriteLine(firstRemoveSpace);
+        Console.WriteLine(lastRemoveSpace);
+        Console.WriteLine(copyStr);
     }
 }

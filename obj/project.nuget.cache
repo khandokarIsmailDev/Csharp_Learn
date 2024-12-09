@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yrsi8pXWpyui/9W2rMszzBCvmO1HWwBxLC6d9iBWmFcQM9m0j9skenSDRO5pDx5fR/8Zj5yt0s26+8RtsD9nJA==",
+  "dgSpecHash": "oHR00CgDJN6QuvIMjA/uPlzZPKM4XlujF5/ymARSEvBvt+zJoSnqILc4BaGxwCL6EcpU40t7wtl3/aKbm5Ihig==",
   "success": true,
   "projectFilePath": "/Users/macbookpro2015/Documents/work_directory/C#_Learn/C# Learn.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbookpro2015/.nuget/packages/microsoft.identity.client/4.66.2/microsoft.identity.client.4.66.2.nupkg.sha512",
+    "/Users/macbookpro2015/.nuget/packages/microsoft.identitymodel.abstractions/6.35.0/microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "/Users/macbookpro2015/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/macbookpro2015/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

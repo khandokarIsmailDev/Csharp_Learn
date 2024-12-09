@@ -28,3 +28,7 @@
 /Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.pdb
 /Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.genruntimeconfig.cache
 /Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/ref/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.csproj.CopyComplete
