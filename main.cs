@@ -44,13 +44,24 @@
 //     }
 // }
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         decimal number = 114.34342434m;
+//         int number2 = Convert.ToInt32(number);  //convert deci to int (32 bit)
+//         bool a = Convert.ToBoolean(number);
+//         Console.WriteLine(number2);
+//         Console.WriteLine(number2.GetType());
+//         Console.WriteLine(a);
+//     }
+// }
+
+
 class MainProgram{
     public static void Main(string[] args){
-        decimal number = 114.34342434m;
-        int number2 = Convert.ToInt32(number);  //convert deci to int (32 bit)
-        bool a = Convert.ToBoolean(number);
-        Console.WriteLine(number2);
-        Console.WriteLine(number2.GetType());
-        Console.WriteLine(a);
+        Console.Write("Enter your name: ");
+        string data = Console.ReadLine();
+
+        Console.WriteLine(data);
+
     }
 }
