@@ -56,18 +56,27 @@
 // }
 
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter your name: ");
+//         string data = Console.ReadLine();
+
+//         Console.Write("Enter your age: ");
+//         int age = int.Parse(Console.ReadLine());
+
+//         Console.WriteLine(age);
+//         Console.WriteLine(data);
+
+//         Console.WriteLine("Your name is {0} and your age is {1}",data,age);
+
+//     }
+// } 
+
+
 class MainProgram{
     public static void Main(string[] args){
-        Console.Write("Enter your name: ");
-        string data = Console.ReadLine();
-
-        Console.Write("Enter your age: ");
-        int age = int.Parse(Console.ReadLine());
-
-        Console.WriteLine(age);
-        Console.WriteLine(data);
-
-        Console.WriteLine("Your name is {0} and your age is {1}",data,age);
-
+        string name = "ismail";
+        string nameReplace = name.Replace("i","44");
+        Console.WriteLine(nameReplace);
     }
-} 
+}
