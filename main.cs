@@ -10,14 +10,36 @@
 //     }
 // }
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         bool a = true;
+//         string str1 = "hello";
+//         char c = 'a'; //single character
+//         string str2 = str1 ;
+
+//         Console.WriteLine("str1:{0},str2:{1},a:{2},c:{3}",str1,str2,a,c);
+
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         const int number = 10;
+//         Console.WriteLine(number);
+//     }
+// }
+
+
 class MainProgram{
     public static void Main(string[] args){
-        bool a = true;
-        string str1 = "hello";
-        char c = 'a'; //single character
-        string str2 = str1 ;
-
-        Console.WriteLine("str1:{0},str2:{1},a:{2},c:{3}",str1,str2,a,c);
-
+        string str = "114";
+        string str2 = "114.987654321";
+        float number3 = float.Parse(str2);
+        int number = int.Parse(str);
+        Console.WriteLine(number);
+        Console.WriteLine(number.GetType());
+        Console.WriteLine(number3);
+        Console.WriteLine(number3.GetType());
     }
 }
