@@ -1,0 +1,30 @@
+/Users/macbookpro2015/Documents/work_directory/C# Learn/bin/Debug/net6.0/C# Learn
+/Users/macbookpro2015/Documents/work_directory/C# Learn/bin/Debug/net6.0/C# Learn.deps.json
+/Users/macbookpro2015/Documents/work_directory/C# Learn/bin/Debug/net6.0/C# Learn.runtimeconfig.json
+/Users/macbookpro2015/Documents/work_directory/C# Learn/bin/Debug/net6.0/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C# Learn/bin/Debug/net6.0/C# Learn.pdb
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.csproj.AssemblyReference.cache
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.AssemblyInfoInputs.cache
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.AssemblyInfo.cs
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.csproj.CoreCompileInputs.cache
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/refint/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.pdb
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/C# Learn.genruntimeconfig.cache
+/Users/macbookpro2015/Documents/work_directory/C# Learn/obj/Debug/net6.0/ref/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/C# Learn
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/C# Learn.deps.json
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/C# Learn.runtimeconfig.json
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/bin/Debug/net6.0/C# Learn.pdb
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.csproj.AssemblyReference.cache
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.AssemblyInfoInputs.cache
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.AssemblyInfo.cs
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.csproj.CoreCompileInputs.cache
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/refint/C# Learn.dll
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.pdb
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/C# Learn.genruntimeconfig.cache
+/Users/macbookpro2015/Documents/work_directory/C#_Learn/obj/Debug/net6.0/ref/C# Learn.dll
