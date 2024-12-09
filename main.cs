@@ -46,8 +46,9 @@
 
 class MainProgram{
     public static void Main(string[] args){
-        string str = "114";
-        int number = Convert.ToInt32(str);  //convert string to int (32 bit)
-        Console.WriteLine(number);
+        decimal number = 114.34342434m;
+        int number2 = Convert.ToInt32(number);  //convert deci to int (32 bit)
+        Console.WriteLine(number2);
+        Console.WriteLine(number2.GetType());
     }
 }
