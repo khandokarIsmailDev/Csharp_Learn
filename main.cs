@@ -31,15 +31,23 @@
 // }
 
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "114";
+//         string str2 = "114.987654321";
+//         float number3 = float.Parse(str2);
+//         int number = int.Parse(str);
+//         Console.WriteLine(number);
+//         Console.WriteLine(number.GetType());
+//         Console.WriteLine(number3);
+//         Console.WriteLine(number3.GetType());
+//     }
+// }
+
 class MainProgram{
     public static void Main(string[] args){
         string str = "114";
-        string str2 = "114.987654321";
-        float number3 = float.Parse(str2);
-        int number = int.Parse(str);
+        int number = Convert.ToInt32(str);  //convert string to int (32 bit)
         Console.WriteLine(number);
-        Console.WriteLine(number.GetType());
-        Console.WriteLine(number3);
-        Console.WriteLine(number3.GetType());
     }
 }
