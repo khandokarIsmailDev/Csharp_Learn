@@ -76,7 +76,12 @@
 class MainProgram{
     public static void Main(string[] args){
         string name = "ismail";
-        string nameReplace = name.Replace("i","44");
-        Console.WriteLine(nameReplace);
+        string nameAdd = name.Insert(0,"Mr.");
+        string nameAdd2 = name.Insert(name.Length,".com");
+        string nameAdd3 = name.Insert(2,"55");
+        
+        Console.WriteLine(nameAdd);
+        Console.WriteLine(nameAdd2);
+        Console.WriteLine(nameAdd3);
     }
 }
