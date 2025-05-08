@@ -358,13 +358,42 @@
 //     }
 // }
 
-class MainProgram{
-    public static void Main(string[] args){
-        bool a = true;
-        string str1 = "ismail";
-        char c = 'A';
-        string str2 = str1;
+// class MainProgram{
+//     public static void Main(string[] args){
+//         bool a = true;
+//         string str1 = "ismail";
+//         char c = 'A';
+//         string str2 = str1;
 
-        Console.WriteLine("a:{0},str1:{1},str2:{2},str2:{3}",a,str1,c,str2);
-    }
-}
+//         Console.WriteLine("a:{0},str1:{1},str2:{2},str2:{3}",a,str1,c,str2);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         int[] numbers = new int[] {2,3,4};
+//         Console.Write("one:{0}",numbers);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main (string[] args){
+//         int one = 1;
+//         int two = 2;
+//         string firstName ="khandokar";
+//         string lastName = "ismail";
+
+//         Console.WriteLine("one:{0},two:{1},firstName:{2},lastName:{3}",one,two,lastName,firstName);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         Int32 age = 27;
+//         bool MariedStatus = true;
+
+//         Console.WriteLine("name:{0},age:{1},MariedStatus:{2}",name,age,MariedStatus);
+//     }
+// }
