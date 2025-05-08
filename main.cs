@@ -257,14 +257,114 @@
 // }
 
 
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name ="  there is a tom   ";
+//         int nameIndex = name.IndexOf("i");
+//         Console.WriteLine(nameIndex);
+
+//         bool enddWith = name.EndsWith("tom  ");
+//         Console.WriteLine(enddWith);
+
+//     }
+// }
+
+// class MainProgram {
+//     public static void Main(string[] args){
+//         string name = "tinko";
+//         int age = 12;
+//         Console.WriteLine("name is {0} & age is {1}",age,name);
+//     }
+// }
+
+
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         int num1 = 1213;
+//         float num2 =234.3424f;
+//         decimal num3 = 2342;
+//         char  charecter = 'a';
+//         bool isnumber = Convert.ToBoolean(0);
+
+//         Console.WriteLine("{0},{1},{2},{3}{4}",num1,num2,num3,charecter,isnumber);
+
+//     }
+// }
+
+
+
+// class MainProgram {
+//     public static void Main(string[] args){
+//         string str = "there is code";
+//         string str2 = "there is code 2";
+//         int strIndex = str.IndexOf("s");
+//         int lastInde = str.LastIndexOf("e");
+
+//         Console.WriteLine(lastInde);
+
+//         Console.WriteLine(strIndex);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "this is cup";
+//         bool isHere = str.StartsWith("is");
+//         bool isLast = str.EndsWith("cup");
+//         Console.WriteLine(isLast);
+//         Console.WriteLine(isHere);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string[] strs = new string[5];
+        
+//         //arrays
+//         strs[0] = "one";
+//         strs[1]="two";
+//         strs[2] = "three";
+//         strs[3] = "four";
+//         strs[4] = "five";
+
+//         for(int i=0; i<strs.Length; i++){
+//             Console.WriteLine($"Element at index {i} : {strs[i]}"); // $ sign na dile kaj korbe na
+//         };
+//     }
+// }
+
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         int[] numbers = new int[7];
+
+//         //arrays
+//         numbers[0] = 10;
+//         numbers[1] = 20;
+//         numbers[2] = 30;
+//         numbers[3] = 40;
+//         numbers[4] = 50;
+//         numbers[5] = 60;
+//         numbers[6] = 70;
+
+//         for(int i=0; i<numbers.Length; i++){
+//             Console.WriteLine($"{i} : {numbers[i]}");
+//         };
+//     }
+// }
+
 class MainProgram{
     public static void Main(string[] args){
-        string name ="  there is a tom   ";
-        int nameIndex = name.IndexOf("i");
-        Console.WriteLine(nameIndex);
+        bool a = true;
+        string str1 = "ismail";
+        char c = 'A';
+        string str2 = str1;
 
-        bool enddWith = name.EndsWith("tom  ");
-        Console.WriteLine(enddWith);
-
+        Console.WriteLine("a:{0},str1:{1},str2:{2},str2:{3}",a,str1,c,str2);
     }
 }
