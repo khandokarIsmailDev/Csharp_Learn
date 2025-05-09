@@ -397,3 +397,26 @@
 //         Console.WriteLine("name:{0},age:{1},MariedStatus:{2}",name,age,MariedStatus);
 //     }
 // }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         int age = 27;
+//         string location = "dhaka";
+
+//         Console.WriteLine("my name is :{0},i am :{1} years old, i live in :{2}",name,age,location);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string doing = "eating";
+//         Int32 age = 27;
+//         bool maried = true;
+//         char c = 'B';
+//         string nameDuplicate = name;
+
+//         Console.WriteLine("name:{0},doing:{1},age:{2},maried:{3},c:{4},nameDuplicate:{5}",name,doing,maried,age,c,nameDuplicate);
+//     }
+// }
