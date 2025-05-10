@@ -420,3 +420,216 @@
 //         Console.WriteLine("name:{0},doing:{1},age:{2},maried:{3},c:{4},nameDuplicate:{5}",name,doing,maried,age,c,nameDuplicate);
 //     }
 // }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "114";
+//         int number = Convert.ToInt32(str);
+//         Console.Write(number);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string num = "110";
+//         int number = Convert.ToInt32(num);
+//         Console.WriteLine(number);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         decimal number = 112.4522m;
+//         int number2 = Convert.ToInt32(number);
+//         bool a = !!Convert.ToBoolean(number);
+//         Console.WriteLine("{0},{1},{2}",number,number2,a);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter your name: ");
+//         string data = Console.ReadLine();
+//         Console.Write(data);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter your name: ");
+//         string data = Console.ReadLine();
+//         Console.Write(data);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter Your Name: ");
+//         string data = Console.ReadLine();
+//         Console.WriteLine(data);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter Your Name: ");
+//         string nameCollect = Console.ReadLine();
+//         Console.Write("Enter your age:");
+//         string ageCollect = Console.ReadLine();
+//         Console.WriteLine(nameCollect,ageCollect);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         Console.Write("Enter your name: ");
+//         string nameCollect = Console.ReadLine();
+//         Console.Write("Enter Your age: ");
+//         string ageCollect = Console.ReadLine();
+        
+//         Console.WriteLine("Your name is {0}; You are in {1}",nameCollect,ageCollect);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string upper = name.ToUpper();
+//         string lower = name.ToLower();
+//         int length = name.Length;
+
+//         Console.WriteLine("{0},{1},{2},{3}",name,upper,lower,length);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string nameReplace = name.Replace("i","44");
+//         Console.WriteLine(nameReplace);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string nameRep = name.Replace("m","9");
+//         Console.WriteLine(nameRep);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string nameAdd = name.Insert(0,"Mr.");
+//         Console.WriteLine(nameAdd);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         string nameAdd = name.Insert(0,"Mr.");
+//         string nameAdd2 = nameAdd.Insert(nameAdd.Length,".com");
+//         string nameAdd3 = nameAdd2.Insert(2,"55");
+
+//         Console.WriteLine("{0},{1},{2},{3}",name,nameAdd,nameAdd2,nameAdd3);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "there is a cat";
+//         string str2 =" there is ";
+//         int strIndex = str.IndexOf("s");
+//         int lastInde = str.LastIndexOf("a");
+//         bool isHere = str.EndsWith("at");
+//         bool startWi = str.StartsWith("the");
+//         bool equality = str.Equals("there is ca");
+//         bool contentWord = str.Contains("is a");
+//         string removespace = str2.Trim();
+//         string lastRemoveSpace = str2.TrimEnd();
+//         string firstremoveSpace = str2.TrimStart();
+
+//         Console.Write("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}",str,str2,strIndex,lastInde,isHere,startWi,equality,contentWord,removespace,lastRemoveSpace,firstremoveSpace);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "there is a cat";
+//         string str2 = " there is ";
+//         int strIndex = str.IndexOf("s");
+//         int lastIndex = str.LastIndexOf("a");
+//         bool isHere = str.EndsWith("at");
+//         bool startWi = str.StartsWith("the");
+//         bool equality = str.Equals("there is a c");
+//         bool contentWord = str.Contains("is a");
+//         string removeSpace = str2.Trim();
+//         string startRemoveSpace = str2.TrimStart();
+//         string endRemoveSpace = str2.TrimEnd();
+//         string copyString = str.Substring(3,5);
+
+//         Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}",str,str2,strIndex,lastIndex,isHere,startWi,equality,contentWord,removeSpace,startRemoveSpace,endRemoveSpace,copyString);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string[] strs = new string[5];
+//         strs[0] = "one";
+//         strs[1] = "two";
+//         strs[2] = "three";
+//         strs[3] = "four";
+//         strs[4] = "five";
+
+//         for(int i=0; i<strs.Length; i++){
+//             Console.WriteLine(strs[i]);
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string[] strs = new string[5];
+//         strs[0] = "one";
+//         strs[1] = "two";
+
+//         for(int i=0; i<strs.Length; i++){
+//             // Console.WriteLine($"Array length: {strs.Length}, Element: {strs[i]}");
+//             Console.WriteLine($"Array Element: {strs.Length}; strs:{strs[i]}");
+//         }
+
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         int[] num = new int[4];
+//         num[0] = 1;
+//         num[1] = 3;
+//         num[3] = 0;
+
+//         for(int i=0; i<num.Length; i++){
+//             Console.WriteLine($"hello! count{num.Length}; {num[i]}");
+//         }
+//     }
+// }
+
+
+class MainProgram{
+    public static void Main(string[] args){
+        string str = "this,is,a,cat";
+        string[] str2 = str.Split(",");
+
+        // for(int i=0; i<str2.Length; i++){
+        //     Console.WriteLine(str2[i]);
+        // }
+
+        foreach(string s in str2){
+            Console.WriteLine(s);
+        }
+    }
+}
