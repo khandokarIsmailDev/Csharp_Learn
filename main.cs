@@ -199,7 +199,7 @@
 //         string data = Console.ReadLine();
 
 //         Console.WriteLine(data);
-        
+
 //     }
 // }
 
@@ -323,7 +323,7 @@
 // class MainProgram{
 //     public static void Main(string[] args){
 //         string[] strs = new string[5];
-        
+
 //         //arrays
 //         strs[0] = "one";
 //         strs[1]="two";
@@ -486,7 +486,7 @@
 //         string nameCollect = Console.ReadLine();
 //         Console.Write("Enter Your age: ");
 //         string ageCollect = Console.ReadLine();
-        
+
 //         Console.WriteLine("Your name is {0}; You are in {1}",nameCollect,ageCollect);
 //     }
 // }
@@ -619,17 +619,111 @@
 // }
 
 
-class MainProgram{
-    public static void Main(string[] args){
-        string str = "this,is,a,cat";
-        string[] str2 = str.Split(",");
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string str = "this,is,a,cat";
+//         string[] str2 = str.Split(",");
 
-        // for(int i=0; i<str2.Length; i++){
-        //     Console.WriteLine(str2[i]);
-        // }
+//         // for(int i=0; i<str2.Length; i++){
+//         //     Console.WriteLine(str2[i]);
+//         // }
 
-        foreach(string s in str2){
-            Console.WriteLine(s);
-        }
-    }
-}
+//         foreach(string s in str2){
+//             Console.WriteLine(s);
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         string name = "ismail";
+//         int age = 27;
+//         string str = string.Format("My name is {0}.I am {1} years old.",name,age);
+//         Console.WriteLine(str);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         decimal price = 23.343m;
+//         string str = string.Format("price is :{0:c}",price); // {0:c} mane currency soho show korbe terminale
+//         Console.WriteLine(str);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] args){
+//         int age = 27;
+//         string str = $"your age is {age}";
+//         Console.WriteLine($"one:{str}; and two:{"here is two"}");
+//     }
+// }
+
+// using System.Text;
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         StringBuilder str = new("this is cat");
+//         Console.WriteLine(str.Length); //length
+//         Console.WriteLine(str.Capacity); //show original capacity
+
+//         //append
+//         str.Append("add in last");
+//         Console.WriteLine(str);
+//         Console.WriteLine(str.Capacity);
+//     }
+// }
+
+// using System.Text;
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         StringBuilder str = new("there is cat");
+//         str.Append("add_last_one");
+//         str.AppendFormat("add nothing {0}","replaced");
+//         str.AppendLine("next LIne Execute");
+
+//         Console.WriteLine(str);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Random num = new();
+//         Console.WriteLine(num.Next(1,10));
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         int grades = 51;
+//         bool HasPassedExam = false;
+
+//         if(grades >= 50){
+//             HasPassedExam= true;
+//             Console.WriteLine("You are passed!");
+//         }else{
+//             Console.WriteLine("You are Fail!");
+//         };
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         int result = 101;
+//         bool HasPassedExam = true;
+
+//         if(result >=33 && result <40){
+//             Console.WriteLine("Your grade is C");
+//         }else if(result >= 60 && result <70){
+//             Console.WriteLine("Your Grade is A-");
+//         }else if(result >= 70 && result <80){
+//             Console.WriteLine("Your grade is A");
+//         }else if(result >= 80 && result <= 100){
+//             Console.WriteLine("Your grade is A+");
+//         }else {
+//             Console.WriteLine("Your are fail!");
+//         }
+
+//     }
+// }
