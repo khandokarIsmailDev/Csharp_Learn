@@ -727,3 +727,127 @@
 
 //     }
 // }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         string name = "ismail";
+//         Console.WriteLine(name);
+
+//     }   
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         string name = "Mr.Ismail";
+//         string tinko = null;
+//         int? age = null;
+//         Console.WriteLine($"name is {age}");
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Object thing = "this is string object";
+//         string str = (string)thing;
+//         Console.WriteLine(str);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Object things = "this is string object";
+//         if(things is int){
+//             int num = (int)things;
+//             Console.WriteLine("Number");
+//         }else if(things is string){
+//             string str = (string)things;
+//             Console.WriteLine(str);
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Object thing1 = "this is string Object thing1";
+//         TestObject(thing1); //print the string;
+
+//         Object thing2 = 42;
+//         TestObject(thing2); //print number;
+
+//         Object thing3 = 3.14;
+//         TestObject(thing3); // print anything;
+//     }
+
+//     static void TestObject(object things){
+//         if(things is int){
+//             int num = (int)things;
+//             Console.WriteLine("Number: " + num);
+//         }else if(things is string){
+//             string str = (string)things;
+//             Console.WriteLine("String: "+ str);
+//         }else{
+//             Console.WriteLine("Other type: "+things.GetType());
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         string comand = "run";
+        
+//         switch(comand){
+//             case "run":
+//                 Console.WriteLine("Runing...");
+//                 break;
+            
+//             case "stop":
+//                 Console.WriteLine("Stoped...");
+//                 break;
+
+//             default:
+//                 Console.Write("nothing");
+//                 break;
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Object things = "";
+//         // things = 12;
+
+//         switch(things){
+//             case string str:
+//                 Console.WriteLine($"String Call {str}");
+//                 break;
+//             case int number:
+//                 Console.WriteLine($"integer call {number}");
+//                 break;
+//             default:
+//                 Console.Write("nothing");
+                // break;
+//         }
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         int nums = 1;
+
+//         do{
+//             Console.WriteLine(nums);
+//             // num++;
+//         }while(nums < 10);
+//     }
+// }
+
+// class MainProgram {
+//     public static void Main(string[] __){
+//         string str = "my,name,is,ismail";
+//         string[] str2 = str.Split(",");
+//         foreach(string s in str2){
+//             Console.WriteLine(s);
+//         }
+//     }
+// }
+
