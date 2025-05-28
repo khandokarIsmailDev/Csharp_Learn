@@ -794,12 +794,12 @@
 // class MainProgram{
 //     public static void Main(string[] __){
 //         string comand = "run";
-        
+
 //         switch(comand){
 //             case "run":
 //                 Console.WriteLine("Runing...");
 //                 break;
-            
+
 //             case "stop":
 //                 Console.WriteLine("Stoped...");
 //                 break;
@@ -825,7 +825,7 @@
 //                 break;
 //             default:
 //                 Console.Write("nothing");
-                // break;
+// break;
 //         }
 //     }
 // }
@@ -848,6 +848,83 @@
 //         foreach(string s in str2){
 //             Console.WriteLine(s);
 //         }
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         string name = "ismail";
+//         int age = 27;
+
+//         string str = string.Format("my name is {0}. I am {1} years old!",name,age);
+//         Console.WriteLine(str);
+//     }
+// }
+
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         decimal num = 10.23m;
+//         string str = string.Format("the price is {0:c}",num);
+//         Console.WriteLine(str);
+//     }
+// }
+
+
+// using System.Text;
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         StringBuilder str = new("there is a cat");
+//         Console.WriteLine(str.Length);
+//         Console.WriteLine(str.Capacity);
+
+//         str.Append("add u man");
+//         Console.WriteLine(str.Length);
+//         Console.WriteLine(str.Capacity);
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Random num = new();
+//         Console.WriteLine(num.Next(1,10));
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         int grades = 133;
+//         bool HasedPassed = false;
+
+//         if(grades < 33){
+//             HasedPassed = false;
+//             Console.WriteLine("You are fail!");
+//         }else if(grades >= 33 && grades <40){
+//             HasedPassed = true;
+//             Console.WriteLine("You are passed!");
+//         }
+
+//         Console.WriteLine(HasedPassed);
+//     }
+// }
+
+// using System;
+// class MainProgram{
+//     public static void Main(string[] __){
+//         string name = "Ismail";
+//         string tinko = null;
+//         int? age = null;
+//         Console.WriteLine($"name is {age}");
+//     }
+// }
+
+// class MainProgram{
+//     public static void Main(string[] __){
+//         Object thing = "this is a Object";
+//         Object thing2 = 34;
+//         Console.WriteLine(thing);
 //     }
 // }
 
